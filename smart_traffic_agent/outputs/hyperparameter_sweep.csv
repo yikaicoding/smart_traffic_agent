@@ -1,0 +1,7 @@
+parameter,value,gamma,final_val_wait_s,best_val_wait_s,alpha
+alpha,0.01,0.9,14.45,10.43,
+alpha,0.1,0.9,10.31,10.31,
+alpha,0.5,0.9,11.73,10.32,
+gamma,0.5,,10.43,10.31,0.1
+gamma,0.9,,10.31,10.31,0.1
+gamma,0.99,,12.07,10.32,0.1

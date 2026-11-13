@@ -1,0 +1,14 @@
+done normal Fixed-time 30/30
+done normal Q-learning only
+done normal Full agent
+done stress Fixed-time 30/30
+done stress Q-learning only
+done stress Full agent
+
+scenario controller           avg wait   p95 wait  avg queue   wasted g  wait vs fix  override
+normal   Fixed-time 30/30       15.04s      38.0s       5.31     26002s         0.0%       0.0
+normal   Q-learning only         9.39s      23.4s       3.32     17021s       -37.6%       0.0
+normal   Full agent              9.39s      23.4s       3.32     17021s       -37.6%       0.0
+stress   Fixed-time 30/30       64.43s     507.7s      24.44     24784s         0.0%       0.0
+stress   Q-learning only        10.25s      25.4s       3.89     16074s       -84.1%       0.0
+stress   Full agent             10.07s      25.0s       3.82     16186s       -84.4%       0.2
